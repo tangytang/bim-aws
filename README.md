@@ -106,4 +106,6 @@ Autoscaling group is applied to multiple target groups. ![alt text](image-2.png)
 ### SSH to EC2
 
 ssh -i default-bim.pem
-ubuntu@ec2-52-221-227-20.ap-southeast-1.compute.amazonaws.com
+ubuntu@ec2-18-141-177-173.ap-southeast-1.compute.amazonaws.com
+
+tcpdump -nnni eth0 port 8080 -w mylogs.pcap

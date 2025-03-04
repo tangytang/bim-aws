@@ -84,8 +84,8 @@ server {
     server_name _;
 
     location / {
-        proxy_pass https://www.bim.com.sg;
-        proxy_set_header Host www.bim.com.sg;
+        proxy_pass https://main.d2mffgehw535io.amplifyapp.com/
+        proxy_set_header Host main.d2mffgehw535io.amplifyapp.com
         proxy_set_header X-Real-IP \\$remote_addr;
         proxy_set_header X-Forwarded-For \\$proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto \\$scheme;
